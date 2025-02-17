@@ -1,0 +1,1 @@
+function add(a, b) { return a + b; } function sub(a, b) { return a - b; } function mul(a, b) { return a * b; } function div(a, b) { if (b === 0) { return Infinity; // Or handle it differently, perhaps return 0 or display a message } return a / b; } let result = div(10, 0); console.log(result); // Output: Infinity
