@@ -1,0 +1,1 @@
+This code demonstrates a common error in DApps: division by zero.  The `div` function does not handle the case where the divisor is zero, resulting in an error.  The solution demonstrates proper error handling to prevent the application from crashing.
